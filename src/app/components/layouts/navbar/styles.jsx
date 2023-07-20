@@ -1,3 +1,7 @@
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.11.0/tsparticles.confetti.bundle.min.js"></script>
+
+
+
 export let styles = {
     bmBurgerButton: {
       position: "fixed",
@@ -20,16 +24,20 @@ export let styles = {
       background: "White",
     },
     bmMenuWrap: {
+
+      background:"black",
       position: "fixed",
       height: "100%",
+      width:"270px"
     },
     bmMenu: {
+      
       background: "#1DA36B",
       padding: "1.5em 2.3em 0",
       fontSize: "1.15em",
     },
     bmMorphShape: {
-      fill: "#373a47",
+      fill: "black",
     },
     bmItemList: {
       color: "white",
@@ -42,3 +50,7 @@ export let styles = {
       background: "RGB(180, 255, 200)",
     },
   };
+
+  
+    
+ 
