@@ -1,6 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.11.0/tsparticles.confetti.bundle.min.js"></script>
-
-
 
 export let styles = {
     bmBurgerButton: {
