@@ -25,6 +25,7 @@ const NavbarMobile = () => {
 
   return (
     <header>
+      
       <div className="flex flex-row items-center bg-gray-200  py-4 justify-end pr-4">
         <nav>
           <Image
