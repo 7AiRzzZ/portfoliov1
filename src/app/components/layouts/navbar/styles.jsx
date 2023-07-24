@@ -50,4 +50,4 @@ export let styles = {
 
   
     
- 
+ export default styles
