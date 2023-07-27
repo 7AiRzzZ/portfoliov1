@@ -13,7 +13,7 @@ const Projet = () => {
       <div className="grid grid-cols ">
       <div className=" mx-14 my-2  backdrop-blur-sm bg-green-400/30  flex flex-row text-xs items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg">
           <Image
-            src="/Images/ayanokoji.png"
+            src="/Images/Imaginationtattoo.png"
             width={50}
             height={25}
             alt="Maxence Dupre"
@@ -29,7 +29,7 @@ const Projet = () => {
         </div>
         <div className=" mx-14 my-2  backdrop-blur-sm bg-green-400/30  flex flex-row text-xs items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg">
           <Image
-            src="/Images/ayanokoji.png"
+            src="/Images/portfolio-sreen.png"
             width={50}
             height={25}
             alt="Maxence Dupre"
@@ -50,7 +50,7 @@ const Projet = () => {
       <div className="grid grid-cols ">
       <div className=" mx-14 my-2 backdrop-blur-sm bg-green-400/30  flex flex-row text-xs items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg">
           <Image
-            src="/Images/ayanokoji.png"
+            src="/Images/sreen-vide.png"
             width={50}
             height={25}
             alt="Maxence Dupre"
@@ -66,7 +66,7 @@ const Projet = () => {
         </div>
         <div className=" mx-14 my-2  backdrop-blur-sm bg-green-400/30  flex flex-row text-xs items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg">
           <Image
-            src="/Images/ayanokoji.png"
+            src="/Images/sreen-vide.png"
             width={50}
             height={25}
             alt="Maxence Dupre"

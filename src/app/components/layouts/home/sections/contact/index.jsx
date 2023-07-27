@@ -13,14 +13,14 @@ const Contact = () => {
             <label htmlFor="">
               <input
                 type="text"
-                className="text-xs  mr-5 backdrop-blur-sm bg-gray-200/10   border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-green-700 border-b-4 border-b-green-700 rounded-sm shadow-lgbg-red-500mx-5 mb-5 h-10 w-36"
+                className="text-xs  mr-5 backdrop-blur-sm bg-gray-200/10 border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-green-700 border-b-4 border-b-green-700 rounded-sm shadow-lgbg-red-500mx-5 mb-5 h-10 w-36"
                 placeholder="Votre nom et prénom"
               />
             </label>
             <label htmlFor="">
               <input
                 type="text"
-                className="text-xs ml-5 backdrop-blur-sm bg-gray-200/10   border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-green-700 border-b-4 border-b-green-700 rounded-sm shadow-lgbg-red-500mx-5 mb-5 h-10 w-36"
+                className="text-xs ml-5 backdrop-blur-sm bg-gray-200/10 border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-green-700 border-b-4 border-b-green-700 rounded-sm shadow-lgbg-red-500mx-5 mb-5 h-10 w-36"
                 placeholder="Votre email"
               />
             </label>

@@ -25,16 +25,17 @@ const NavbarMobile = () => {
 
   return (
     <header>
-      
-      <div className="flex flex-row items-center bg-gray-200  py-4 justify-end pr-4">
-        <nav>
+      <div className=" text-white text-2xl bg-black h-20 grid grid-cols-3 w-full">
+        <div className="col-start-1"></div>
+        <h1 className="text-center col-start-2 flex items-center pl-5">Portfolio</h1>
+        <div className="flex justify-center items-center col-start-3 ">
           <Image
             src="/Images/ayanokoji.png"
             width={40}
             height={40}
             alt="Maxence Dupre"
           />
-        </nav>
+        </div>
       </div>
       <div>
         <Menu styles={styles}>
@@ -84,15 +85,12 @@ const NavbarMobile = () => {
         </Menu>
       </div>
 
-     
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={particlesJson}
-        />
-       
-      
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={particlesJson}
+      />
     </header>
   );
 };
