@@ -12,13 +12,15 @@ const Contact = () => {
             <label htmlFor="">
               <input
                 type="text"
-                className="mr-5 backdrop-blur-sm bg-green-400/30  border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white rounded-sm shadow-lgbg-red-500mx-5 mb-5 w-36"
+                className="text-xs  mr-5 backdrop-blur-sm bg-green-400/30  border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white rounded-sm shadow-lgbg-red-500mx-5 mb-5 h-10 w-40"
+                placeholder="Votre nom et prénom"
               />
             </label>
             <label htmlFor="">
               <input
                 type="text"
-                className="ml-5 backdrop-blur-sm bg-green-400/30  border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white rounded-sm shadow-lgbg-red-500mx-5 mb-5 w-36"
+                className="text-xs ml-5 backdrop-blur-sm bg-green-400/30  border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white rounded-sm shadow-lgbg-red-500mx-5 mb-5 h-10 w-40"
+                placeholder="Votre email"
               />
             </label>
           </div>
@@ -26,7 +28,17 @@ const Contact = () => {
             <label htmlFor="">
               <input
                 type="text"
-                className=" backdrop-blur-sm bg-green-400/30  border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white rounded-sm shadow-lgbg-red-500mx-5 mb-5 w-full h-20"
+                className=" text-center text-xs backdrop-blur-sm bg-green-400/30  border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white rounded-sm shadow-lgbg-red-500mx-5 mb-5 w-80 h-40"
+                placeholder="dites moi tout ..."
+              />
+            </label>
+          </div>
+          <div className=" flex items-center justify-center">
+            <label htmlFor="">
+              <input
+                type="text"
+                className=" text-xs backdrop-blur-sm bg-green-400/30  border-t-4 border-t-green-700 border-l-4 border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white rounded-sm shadow-lgbg-red-500mx-5 mb-5 w-20 h-10"
+                placeholder="Envoyer"
               />
             </label>
           </div>
