@@ -1,5 +1,6 @@
 import Introduction from "./sections/Introduction";
 import Competences from "./sections/competences";
+import Contact from "./sections/contact";
 import Parcours from "./sections/parcours";
 import Projet from "./sections/projet";
 
@@ -11,6 +12,7 @@ const Header1 = () =>{
         <Competences/>
         <Projet/>
         <Parcours/>
+        <Contact/>
         </>
     )
 };
