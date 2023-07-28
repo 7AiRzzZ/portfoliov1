@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .carousel .thumbs-wrapper {
-    margin: 0 !important;
+  margin: 0 !important;
 }

@@ -1,16 +1,17 @@
-"use client";
+import Footer from "./components/layouts/footer";
+import ParticlesBackground from "@/app/components/tools/particles";
+import NavBar from "./components/layouts/navbar";
+import Home from "./home";
 
-import Footer from "./components/layouts/footer/footer";
-import Particles from "react-particles";
-import NavBar from "./components/layouts/navbar/navbar";
-import Header1 from "./components/layouts/home/Homepage";
-
-export default function Home() {
+const HomePage = () => {
   return (
     <>
       <NavBar />
-      <Header1 />
+      <Home />
       <Footer />
+      <ParticlesBackground />
     </>
   );
-}
+};
+
+export default HomePage;

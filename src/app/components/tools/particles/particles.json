@@ -2,7 +2,7 @@
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#fafafa"
+      "value": "#ffffff"
     },
     "image": "",
     "position": "",
@@ -583,7 +583,42 @@
   "responsive": [],
   "smooth": false,
   "style": {},
-  "themes": [],
+  "themes": [
+    {
+      "name": "light",
+      "default": {
+        "value": true,
+        "mode": "light"
+      },
+      "options": {
+        "background": {
+          "color": "#FFFFFF"
+        },
+        "particles": {
+          "color": {
+            "value": "#ff8906"
+          }
+        }
+      }
+    },
+    {
+      "name": "dark",
+      "default": {
+        "value": true,
+        "mode": "dark"
+      },
+      "options": {
+        "background": {
+          "color": "#000000"
+        },
+        "particles": {
+          "color": {
+            "value": "#89ff06"
+          }
+        }
+      }
+    }
+  ],
   "zLayers": 100,
   "emitters": []
 }
