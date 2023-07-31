@@ -1,6 +1,7 @@
 import Button from "@/app/components/tools/button";
 import Image from "next/image";
 import Card from "@/app/components/tools/card";
+import Title from "@/app/components/tools/titre";
 
 const Introduction = () => {
   return (
@@ -12,8 +13,8 @@ const Introduction = () => {
             <h2>Devellopeur Web Front END|REACT</h2>
           </div>
         </Card>
-        <div className="">
-          <Button text={"A Propos"} />
+        <div>
+          <Title text={"A Propos"} />
         </div>
         <Card>
           <Image

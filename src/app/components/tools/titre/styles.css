@@ -1,0 +1,37 @@
+body {
+	background:#FEFEFE;
+	color:#000000;
+}
+.box {
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+	width:640px;
+	text-align:center;
+}
+
+.title,.title div span {
+	display:inline-block;
+	text-align:left;
+}
+.title {
+	position:relative;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0 auto;
+}
+.title .bar {
+	height:22px;
+	width:0%;
+	background:#1DA36B;
+}
+.title .text {
+	overflow:hidden;
+	width:0%;
+	margin-top:8px;
+}
+.title .text span {
+	white-space: nowrap;
+}
