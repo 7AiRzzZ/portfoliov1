@@ -1,4 +1,4 @@
-
+import "./styles.css";
 import PropTypes from "prop-types";
 
 const annimationTitle = ({ text }) => {

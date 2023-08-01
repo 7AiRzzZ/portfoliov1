@@ -4,7 +4,7 @@ import Image from "next/image";
 const Projet = () => {
   return (
     <section>
-      <div className=" flex flex-col justify-center align-top  ">
+      <div className=" flex flex-col justify-center align-top lg:items-center lg:my-8 ">
         <Button text={"Projets"} />
       </div>
       <div className="flex justify-center text-lg uppercase mb-1">

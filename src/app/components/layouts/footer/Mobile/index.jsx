@@ -11,8 +11,8 @@ import {
 
 const FooterMobile = () => {
   return (
-    <footer className="  text-center  text-white">
-      <div className=" bg-black opacity-90 px-4 py-1">
+    <footer className="  text-center text-white">
+      <div className=" bg-black opacity-90 px-4 py-1 w-full">
         <Link href={""}>
           <FontAwesomeIcon className="px-2 hover:text-gray-400 " icon={faGithub} />
         </Link>

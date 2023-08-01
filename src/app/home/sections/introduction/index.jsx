@@ -1,42 +1,51 @@
 import Button from "@/app/components/tools/button";
 import Image from "next/image";
 import Card from "@/app/components/tools/card";
-import Title from "@/app/components/tools/titre";
+
 
 const Introduction = () => {
   return (
-    <section>
-      <div className="flex flex-col text-center mt-28 mx-4 dark:text-red-500">
+    <section className="">
+      <div className="flex flex-col text-center mt-24 mx-4 dark:text-red-500 lg:flex lg:justify-center lg:items-center">
         <Card>
-          <div className="flex flex-col text-center uppercase text-xl">
-            <h1>Maxence Dupre</h1>
-            <h2>Devellopeur Web Front END|REACT</h2>
+          <div className="flex flex-col text-center justify-center text-xl lg:h-52 lg:justify-center lg:items-center lg:py-16 lg:px-32">
+            <h1 className="lg:uppercase lg:text-bold lg:py-2 pt-2 lg:text-5xl">
+              Maxence Dupre
+            </h1>
+            <p className="lg:py-2 lg:text-3xl">Developpeur Web</p>
+            <p className="lg:py-2 pb-2 lg:text-3xl">Front END/Back END</p>
           </div>
         </Card>
-        <div>
-          <Title text={"A Propos"} />
+        <div className="lg:my-8">
+          <Button text={"A Propos"} />
         </div>
-        <Card>
-          <Image
-            src="/Images/ayanokoji.png"
-            width={100}
-            height={50}
-            alt="Maxence Dupre"
-          />
-          <div className="pl-4">
-            <p>Age : 21ans</p>
-            <br />
-            <p>Télephone : 06.03.92.29.48</p>
-            <br />
-            <p>Email : Maxencedpr@icloud.com</p>
-          </div>
-        </Card>
-        <Card>
-          <p>
+        <div className=" lg:w-8/12  ">
+          <Card className="lg:py-8">
+            <div className="lg:w-full lg:flex lg:flex-row lg:items-center lg:justify-center">
+              <Image
+                src="/Images/ayanokoji.png"
+                width={200}
+                height={100}
+                alt="Maxence Dupre"
+              />
+            </div>
+            <div className="lg:w-full lg:flex lg:flex-col lg:text-center lg:justify-start lg:text-2xl dark:text-white ">
+              <p>Age : 21ans</p>
+              <br />
+              <p>Télephone : 06.03.92.29.48</p>
+              <br />
+              <p>Email : Maxencedpr@icloud.com</p>
+            </div>
+          </Card>
+        </div>
+        <Card className=" lg:my-8">
+          <p className="lg:text-2xl ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             officia porro optio tempora vero quibusdam cumque ratione possimus
             laborum nemo eum, adipisci fugiat amet beatae eius facilis vel.
-            Eligendi, voluptatum.
+            Eligendi, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            officia porro optio tempora vero quibusdamLorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            officia porro optio tempora vero quibusdam
           </p>
         </Card>
       </div>
