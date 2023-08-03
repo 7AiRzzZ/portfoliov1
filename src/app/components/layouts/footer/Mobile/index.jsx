@@ -12,31 +12,39 @@ import {
 const FooterMobile = () => {
   return (
     <footer className="  text-center text-white">
-      <div className=" bg-black opacity-90 px-4 py-1 w-full">
+      <div className=" bg-black opacity-90 px-2 py-2 w-full h-full grid grid-cols-5 justify-center items-center  ">
         <Link href={""}>
-          <FontAwesomeIcon className="px-2 hover:text-gray-400 " icon={faGithub} />
+          <FontAwesomeIcon
+            className=" px-2 hover:text-gray-400 "
+            size="2xs"
+            icon={faGithub}
+          />
         </Link>
         <Link href={""}>
           <FontAwesomeIcon
-            className=" hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110"
+            className="px-2 hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110"
+            size="2xs"
             icon={faLinkedin}
           />
         </Link>
         <Link href={""}>
           <FontAwesomeIcon
-            className="px-2  hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110"
+            className=" px-2 hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110"
+            size="2xs"
             icon={faDiscord}
           />
         </Link>
         <Link href={""}>
           <FontAwesomeIcon
-            className="  hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110 "
+            className="px-2 hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110 "
+            size="2xs"
             icon={faTwitter}
           />
         </Link>
         <Link href={""}>
           <FontAwesomeIcon
-            className=" px-2  hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110 "
+            className=" px-2 hover:text-gray-400  hover:transition hover:ease-in-out hover:duration-150 hover:scale-110 "
+            size="2xs"
             icon={faInstagram}
           />
         </Link>

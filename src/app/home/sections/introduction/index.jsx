@@ -2,7 +2,6 @@ import Button from "@/app/components/tools/button";
 import Image from "next/image";
 import Card from "@/app/components/tools/card";
 
-
 const Introduction = () => {
   return (
     <section className="">
@@ -21,20 +20,38 @@ const Introduction = () => {
         </div>
         <div className=" lg:w-8/12  ">
           <Card className="lg:py-8">
-            <div className="lg:w-full lg:flex lg:flex-row lg:items-center lg:justify-center">
-              <Image
-                src="/Images/ayanokoji.png"
-                width={200}
-                height={100}
-                alt="Maxence Dupre"
-              />
-            </div>
-            <div className="lg:w-full lg:flex lg:flex-col lg:text-center lg:justify-start lg:text-2xl dark:text-white ">
-              <p>Age : 21ans</p>
-              <br />
-              <p>Télephone : 06.03.92.29.48</p>
-              <br />
-              <p>Email : Maxencedpr@icloud.com</p>
+            <div className=" flex flex-row justify-center items-center">
+              <div className=" mx-2 lg:w-full lg:flex lg:flex-row lg:items-center lg:justify-center">
+                <div className="lg:hidden">
+                  <picture>
+                    {" "}
+                    <source media="(min-width:320px)" srcset="ayanokoji.png" />
+                    <Image
+                      src="/Images/ayanokoji.png"
+                      width={100}
+                      height={100}
+                      alt="Maxence Dupre"
+                    />
+                  </picture>
+                </div>
+                <picture>
+                  {" "}
+                  <source media="(min-width:768px)" srcset="" />
+                  <Image
+                    src="/Images/ayanokoji.png"
+                    width={200}
+                    height={200}
+                    alt="Maxence Dupre"
+                  />
+                </picture>
+              </div>
+              <div className="lg:w-full lg:flex lg:flex-col lg:text-center lg:justify-start lg:text-2xl dark:text-white ">
+                <p>Age : 21ans</p>
+                <br />
+                <p>Télephone : 06.03.92.29.48</p>
+                <br />
+                <p>Email : Maxencedpr@icloud.com</p>
+              </div>
             </div>
           </Card>
         </div>
@@ -43,9 +60,10 @@ const Introduction = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             officia porro optio tempora vero quibusdam cumque ratione possimus
             laborum nemo eum, adipisci fugiat amet beatae eius facilis vel.
-            Eligendi, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            officia porro optio tempora vero quibusdamLorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            officia porro optio tempora vero quibusdam
+            Eligendi, voluptatum.Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nesciunt officia porro optio tempora vero
+            quibusdamLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nesciunt officia porro optio tempora vero quibusdam
           </p>
         </Card>
       </div>

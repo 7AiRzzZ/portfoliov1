@@ -9,7 +9,7 @@ export const Competences = () => {
       <div className="lg:items-center lg:flex lg:justify-center">
         <Button text={"Compétences"} />
       </div>
-      <div className=" grid grid-cols-2 ">
+      <div className="lg:hidden grid grid-cols-2 ">
         <div className=" flex  items-center justify-center">
           <Card className="px-8 py-8">
             <Image
@@ -131,7 +131,131 @@ export const Competences = () => {
           </Card>
         </div>
       </div>
-      <div className="lg:hidden"></div>
+      {/* ----------------------------------------------------------------------------------------------------- */}
+      {/* Laptop */}
+      {/* ----------------------------------------------------------------------------------------------------- */}
+      <div className=" hidden lg:grid lg:grid-cols-3 ">
+        <div className=" lg:flex  lg:items-center lg:justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+        <div className=" flex  items-center justify-center">
+          <Card className="px-16 py-8">
+            <Image
+              src="/Images/Imaginationtattoo.png"
+              width={200}
+              height={200}
+              alt="Maxence Dupre"
+            />
+          </Card>
+        </div>
+      </div>
     </section>
   );
 };
