@@ -10,8 +10,8 @@ export const Competences = () => {
         <Button text={"Compétences"} />
       </div>
       <div className="lg:hidden grid grid-cols-2 ">
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center  mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -20,8 +20,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -30,8 +30,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -40,8 +40,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -50,8 +50,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -60,8 +60,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -70,8 +70,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -80,8 +80,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -90,8 +90,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -100,8 +100,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -110,8 +110,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}
@@ -120,8 +120,8 @@ export const Competences = () => {
             />
           </Card>
         </div>
-        <div className=" flex  items-center justify-center">
-          <Card className="px-8 py-8">
+        <div className=" flex  items-center justify-center mx-1 my-1">
+          <Card className="px-6 py-6">
             <Image
               src="/Images/Imaginationtattoo.png"
               width={100}

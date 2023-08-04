@@ -4,7 +4,7 @@ import Form from "@/app/components/tools/form";
 
 const Contact = () => {
   return (
-    <section>
+    <section className=" mx-2 my-2">
       <div className="flex flex-col justify-center">
         <Button text={"Contact"} />
       </div>

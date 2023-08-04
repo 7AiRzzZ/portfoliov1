@@ -1,11 +1,6 @@
 import Button from "@/app/components/tools/button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCarSide,
-  faCode,
-  faBook,
-  faBuilding,
-} from "@fortawesome/free-solid-svg-icons";
+import Card from "@/app/components/tools/card";
+import Image from "next/image";
 
 const Parcours = () => {
   return (
@@ -13,58 +8,78 @@ const Parcours = () => {
       <div className=" flex flex-col justify-center align-top  ">
         <Button text={"Parcours"} />
       </div>
-      <div className="">
-        <div className=" flex flex-row items-center">
-          <FontAwesomeIcon
-            className=" ml-2 backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg h-5 w-5 "
-            icon={faBook}
-            style={{ color: "#000000" }}
+      <div className="text-xs grid grid-cols-[1fr_2fr] text-center">
+        <div className="flex items-center justify-center">
+          <Image
+            className="my-2"
+            src="/Images/Imaginationtattoo.png"
+            width={100}
+            height={50}
+            alt="Maxence Dupre"
           />
-          <div className="mx-2 text-xs backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-              fugiat totam quas sed optio.
-            </p>
-          </div>
         </div>
-        <div className=" flex flex-row items-center  mt-2">
-          <FontAwesomeIcon
-            className="ml-2 backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg h-5 w-10  "
-            icon={faBuilding}
-            style={{ color: "#000000" }}
-          />
-          <div className="mx-2  text-xs backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg ">
+        <div className="w-full">
+          <Card className="my-2  mr-2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-              fugiat totam quas sed optio.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, libero iusto, a dicta magni assumenda enim magnam
+              molestiae .
             </p>
-          </div>
+          </Card>
         </div>
-        <div className=" flex flex-row items-center  mt-2">
-          <FontAwesomeIcon
-            className="ml-2 backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg h-5 w-5 "
-            icon={faCarSide}
-            style={{ color: "#000000" }}
+        <div className="flex items-center justify-center">
+          <Image
+            className="my-2"
+            src="/Images/Imaginationtattoo.png"
+            width={100}
+            height={50}
+            alt="Maxence Dupre"
           />
-          <div className="mx-2 text-xs backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-              fugiat totam quas sed optio.
-            </p>
-          </div>
         </div>
-        <div className=" flex flex-row items-center mt-2">
-          <FontAwesomeIcon
-            className=" ml-2 backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg h-5 w-5 "
-            icon={faCode}
-            style={{ color: "#000000" }}
-          />
-          <div className="mx-2 text-xs backdrop-blur-sm bg-green-400/30  flex flex-row  text-center items-center py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg ">
+        <div className="w-full">
+          <Card className="my-2  mr-2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-              fugiat totam quas sed optio.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, libero iusto, a dicta magni assumenda enim magnam
+              molestiae .
             </p>
-          </div>
+          </Card>
+        </div>
+        <div className="flex items-center justify-center">
+          <Image
+            className="my-2"
+            src="/Images/Imaginationtattoo.png"
+            width={100}
+            height={50}
+            alt="Maxence Dupre"
+          />
+        </div>
+        <div className="w-full">
+          <Card className="my-2  mr-2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, libero iusto, a dicta magni assumenda enim magnam
+              molestiae .
+            </p>
+          </Card>
+        </div>
+        <div className="flex items-center justify-center">
+          <Image
+            className="my-2"
+            src="/Images/Imaginationtattoo.png"
+            width={100}
+            height={50}
+            alt="Maxence Dupre"
+          />
+        </div>
+        <div className="w-full">
+          <Card className="my-2 mr-2 ">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, libero iusto, a dicta magni assumenda enim magnam
+              molestiae .
+            </p>
+          </Card>
         </div>
       </div>
     </section>

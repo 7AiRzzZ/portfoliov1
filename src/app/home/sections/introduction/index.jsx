@@ -19,33 +19,35 @@ const Introduction = () => {
           <Button text={"A Propos"} />
         </div>
         <div className=" lg:w-8/12  ">
-          <Card className="lg:py-8">
+          <Card className="lg:py-8 my-1">
             <div className=" flex flex-row justify-center items-center">
               <div className=" mx-2 lg:w-full lg:flex lg:flex-row lg:items-center lg:justify-center">
                 <div className="lg:hidden">
                   <picture>
                     {" "}
-                    <source media="(min-width:320px)" srcset="ayanokoji.png" />
+                    <source media="(min-width:320px)" srcset="" />
                     <Image
                       src="/Images/ayanokoji.png"
-                      width={100}
-                      height={100}
+                      width={70}
+                      height={70}
                       alt="Maxence Dupre"
                     />
                   </picture>
                 </div>
-                <picture>
-                  {" "}
-                  <source media="(min-width:768px)" srcset="" />
-                  <Image
-                    src="/Images/ayanokoji.png"
-                    width={200}
-                    height={200}
-                    alt="Maxence Dupre"
-                  />
-                </picture>
+                <div className="hidden">
+                  <picture>
+                    {" "}
+                    <source media="(min-width:768px)" srcset="" />
+                    <Image
+                      src="/Images/ayanokoji.png"
+                      width={200}
+                      height={200}
+                      alt="Maxence Dupre"
+                    />
+                  </picture>
+                </div>
               </div>
-              <div className="lg:w-full lg:flex lg:flex-col lg:text-center lg:justify-start lg:text-2xl dark:text-white ">
+              <div className="  text-center text-xs lg:w-full lg:flex lg:flex-col lg:text-center lg:justify-start lg:text-2xl dark:text-white ">
                 <p>Age : 21ans</p>
                 <br />
                 <p>Télephone : 06.03.92.29.48</p>
@@ -55,7 +57,7 @@ const Introduction = () => {
             </div>
           </Card>
         </div>
-        <Card className=" lg:my-8">
+        <Card className=" lg:my-8 my-1">
           <p className="lg:text-2xl ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             officia porro optio tempora vero quibusdam cumque ratione possimus
