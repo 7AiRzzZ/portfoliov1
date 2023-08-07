@@ -11,7 +11,7 @@ import {
 
 const FooterMobile = () => {
   return (
-    <footer className="  text-center text-white">
+    <footer className="lg:hidden text-center text-white">
       <div className=" bg-black opacity-90 px-2 py-2 w-full h-full grid grid-cols-5 justify-center items-center  ">
         <Link href={""}>
           <FontAwesomeIcon

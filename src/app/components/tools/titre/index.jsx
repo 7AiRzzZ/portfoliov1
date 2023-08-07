@@ -1,23 +1,9 @@
-import "./styles.css";
-import PropTypes from "prop-types";
-
-const annimationTitle = ({ text }) => {
+const Titre = ({className,children}) => {
   return (
-    <>
-      <div class="box">
-        <h2 class="title1">
-          <div class="bar"></div>
-          <div class="text">
-            <span>{text}</span>
-          </div>
-        </h2>
-      </div>
-    </>
+    <div className={`mx-2 my-4 flex items-center justify-center text-center border-black backdrop-blur-sm bg-black/10 dark:border-white border-x-2 border-y-2 text-2xl rounded-full ${className}`}>
+      {children}
+    </div>
   );
 };
 
-// Title.PropTypes = {
-//   text: PropTypes.string,
-// };
-
-export default annimationTitle;
+export default Titre;
