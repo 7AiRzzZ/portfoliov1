@@ -8,7 +8,7 @@ import Main from "@/app/components/layouts/main";
 
 const Home = () => {
   return (
-    <Main>
+    <Main className={"overflow-x-hidden"}>
       <Introduction />
       <Competences />
       <Projet />

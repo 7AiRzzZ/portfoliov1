@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-const Card = ({ className, children }) => {
+const Card = ({ className, children, dataAos }) => {
   return (
     <div
-      className={` backdrop-blur-sm bg-green-400/30  py-2 px-2 border-t-8 border-t-green-700 border-l-8 border-l-green-700 border-r-8 border-r-white border-b-8 border-b-white rounded-sm shadow-lg ${className}`}
+      className={`hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700my-4 mx-2 contain border-t-[6px] border-t-green-700 border-l-[6px] border-l-green-700 border-r-4 border-r-white border-b-4 border-b-white  ${className}`}
     >
       {children}
     </div>

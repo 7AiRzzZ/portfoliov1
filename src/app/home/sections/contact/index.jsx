@@ -5,17 +5,17 @@ import Titre from "@/app/components/tools/titre";
 
 const Contact = () => {
   return (
-    <section className=" mx-2 my-2">
-      {/* ---------------- */}
+    <section className="mx-2 my-2" id="contact">
       <div className=" lg:mt-16 lg:mx-4 lg:my-4 lg:flex lg:justify-start lg:items-start">
-        <Titre className={"px-4"}>
+        <Titre className={"dark:text-white px-4"}>
           <h1 className="uppercase py-1 lg:text-4xl">Contact</h1>
         </Titre>
       </div>
-      {/* ----------------- */}
-      <ProjetCard className=" lg:mx-72 lg:my-8">
-        <Form />
-      </ProjetCard>
+      <div className="mb-12 lg:mb-20 lg:mx-52"> 
+        <ProjetCard className="contain font-retrogaming dark:text-white lg:mx-72 lg:my-8">
+          <Form  />
+        </ProjetCard>
+      </div>
     </section>
   );
 };

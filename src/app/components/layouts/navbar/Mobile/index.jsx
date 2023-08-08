@@ -1,32 +1,53 @@
 "use client";
 
-import Image from "next/image";
+import { useContext, useState } from "react";
+import { ParticlesContext } from "@/app/components/context/particlesProvider";
+
 import MenuHamburger from "./menuHamburger";
+import { LuToggleLeft, LuToggleRight } from "react-icons/lu";
 import DarkMode from "@/app/components/tools/darkMode";
+import ParticlesBackground from "@/app/components/tools/particles";
 
 const NavbarMobile = () => {
+  const { theme, setTheme } = useContext(ParticlesContext);
+  const [showButton, setShowButton] = useState(false);
+
   return (
     <header>
-      <nav className="w-full flex fixed top-0 z-50 lg:hidden">
-        <MenuHamburger />
-        <div className=" text-white text-2xl bg-black h-20 grid grid-cols-3 w-full">
-          <div className="col-start-1"></div>
-          <h1 className="text-center col-start-2 flex items-center pl-5">
-            Portfolio
-          </h1>
-          <div
-            className="flex justify-center items-center col-start-3"
-            onClick={() => DarkMode()}
-          >
-            <Image
-              src="/Images/ayanokoji.png"
-              width={40}
-              height={40}
-              alt="Maxence Dupre"
+      <nav className="w-full h-20 grid grid-cols-3 bg-black fixed top-0 z-50 lg:hidden">
+        <div>
+          <MenuHamburger />
+        </div>
+        <div className="flex justify-center items-center">
+          <a href="http://localhost:3000">
+            <img src="/Images/ayanokoji.png" alt="" width={50} height={50} />
+          </a>
+        </div>
+        <div className="flex justify-center items-center">
+          {showButton === false ? (
+            <LuToggleLeft
+              size={30}
+              className="text-white"
+              onClick={() => {
+                setTheme("dark");
+                setShowButton(true);
+                DarkMode();
+              }}
             />
-          </div>
+          ) : (
+            <LuToggleRight
+              size={30}
+              className="text-white"
+              onClick={() => {
+                setTheme("light");
+                setShowButton(false);
+                DarkMode();
+              }}
+            />
+          )}
         </div>
       </nav>
+      <ParticlesBackground color={theme} />
     </header>
   );
 };

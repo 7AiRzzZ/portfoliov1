@@ -3,18 +3,15 @@
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import particlesJson from "./particles.json";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState, useContext } from "react";
+import { ParticlesContext } from "@/app/components/context/particlesProvider";
 
-const ParticlesBackground = () => {
-  const [theme, setTheme] = useState("light");
+const ParticlesBackground = ({ color }) => {
+  const { theme, setTheme } = useContext(ParticlesContext);
 
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
-    // await loadSlim(engine);
   }, []);
 
   const [particlesContainer, setParticlesContainer] = useState();
@@ -31,11 +28,8 @@ const ParticlesBackground = () => {
 
   return (
     <>
-      <button onClick={() => setTheme("light")}>Light</button>
-
-      <button onClick={() => setTheme("dark")}>Dark</button>
       <Particles
-        theme={theme}
+        theme={color}
         id="tsparticles"
         particlesLoaded="particlesLoaded"
         init={particlesInit}
