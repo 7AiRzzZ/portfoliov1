@@ -8,7 +8,7 @@ const Introduction = () => {
     <>
       <div className="h-screen flex flex-col justify-center dark:text-white">
         <div className="flex flex-col text-center justify-center text-xl lg:h-52 lg:justify-center lg:items-center lg:py-16 lg:px-32">
-          <h1 className="font-pixeloid pt-20 lg:uppercase lg:text-bold lg:py-2 lg:text-5xl">
+          <h1 className="font-pixeloid pt-20 lg:uppercase lg:text-bold lg:py-2 lg:text-5xl lg:pt-20">
             Bonjour, je suis
             <br />
             Maxence <span className="font-bold uppercase">DUPRE </span>!
@@ -31,7 +31,7 @@ const Introduction = () => {
             className="font-pixeloid lg:text-5xl"
             repeat={Infinity}
           />
-          <div className="flex flex-col pt-6 pb-20 lg:flex-row lg:pt-8 lg:pt-20">
+          <div className="flex flex-col pt-6 pb-20 lg:flex-row lg:pt-8 ">
             <button className="pb-2 lg:pb-0 lg:mr-4">Mon Cv</button>
             <button className="pt-2 lg:pt-0 lg:ml-4">Mes projets</button>
           </div>
