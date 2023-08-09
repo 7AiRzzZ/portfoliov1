@@ -11,7 +11,7 @@
 //   faInstagram,
 // } from "@fortawesome/free-brands-svg-icons";
 
-const FooterDesktop = () => {
+const D = () => {
   return (
     <footer className="hidden lg:flex lg:flex-col text-center w-full h-full text-white">
       dfg
@@ -77,4 +77,4 @@ const FooterDesktop = () => {
   );
 };
 
-export default FooterDesktop;
+export default D;
