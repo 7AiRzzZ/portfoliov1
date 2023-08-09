@@ -1,10 +1,10 @@
 import D from "./d";
-// import FooterMobile from "./mobile";
+import M from "./m";
 
 const Footer = () => {
   return (
     <>
-      {/* <FooterMobile /> */}
+      <M />
       <D />
     </>
   );

@@ -12,7 +12,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-const FooterMobile = () => {
+const M = () => {
   return (
     <footer className="lg:hidden text-center text-white">
       <hr />
@@ -62,4 +62,4 @@ const FooterMobile = () => {
   );
 };
 
-export default FooterMobile;
+export default M;
