@@ -1,20 +1,21 @@
 "use client";
 
-import Link from "next/link";
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faDiscord,
-  faLinkedin,
-  faTwitter,
-  faGithub,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+// import Link from "next/link";
+// import React from "react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faDiscord,
+//   faLinkedin,
+//   faTwitter,
+//   faGithub,
+//   faInstagram,
+// } from "@fortawesome/free-brands-svg-icons";
 
 const FooterDesktop = () => {
   return (
     <footer className="hidden lg:flex lg:flex-col text-center w-full h-full text-white">
-      <hr />
+      dfg
+      {/* <hr />
       <div className="py-4 bg-black opacity-90 grid grid-cols-5 justify-center items-center  ">
         <Link
           className=" flex justify-center items-center "
@@ -71,7 +72,7 @@ const FooterDesktop = () => {
       <div className="bg-black text-xl flex flex-col py-6 items-center justify-center">
         <p className="">&copy; 2023 - {new Date().getFullYear()}</p>
         <p className="">Tous droits réservés</p>
-      </div>
+      </div> */}
     </footer>
   );
 };
