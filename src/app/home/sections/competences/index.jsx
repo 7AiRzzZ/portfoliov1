@@ -14,8 +14,8 @@ export const Competences = () => {
       <div className="grid grid-cols-2 lg:grid-cols-3">
         {data.map((skill) => {
           return (
-            <div key={skill.id} className="p-2">
-              <Card className="flex items-center justify-center p-4">
+            <div key={skill.id} className="p-2 lg:mx-8">
+              <Card className="flex items-center justify-center p-4 lg:py-8">
                 <Image
                   src={skill.image}
                   width={100}

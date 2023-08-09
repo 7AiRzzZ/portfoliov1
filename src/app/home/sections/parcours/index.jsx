@@ -13,22 +13,22 @@ const Parcours = () => {
         </Titre>
       </div>
       <div className="dark:text-white text-xs text-center flex flex-col lg:flex lg:flex-col">
-        <div className="flex flex-col items-center lg:my-4">
+        
           {parcoursData.map((parcours) => {
             return (
-              <div key={parcours.id} className="flex flex-row">
-                <Card>
-                  <div className="p-4">
-                    <Image src={parcours.image} width={70} height={70} />
+              <div key={parcours.id} className="flex flex-row lg:flex lg:flex-row  lg:justify-center lg:items-center ">
+                <Card className=" lg:flex lg:flex-row lg:justify-center lg:items-center lg:py-4 lg:px-4">
+                  <div className="p-4 flex justify-center items-center">
+                    <Image src={parcours.image} width={100} height={100} />
                   </div>
-                  <div className="flex justify-center items-center">
+                  <div className=" font-retrogaming flex justify-center items-center lg:text-xl">
                     <p>{parcours.description}</p>
                   </div>
                 </Card>
               </div>
             );
           })}
-        </div>
+        
       </div>
     </section>
   );

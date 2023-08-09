@@ -2,6 +2,8 @@ import Image from "next/image";
 import Card from "@/app/components/tools/card";
 import Titre from "@/app/components/tools/titre";
 import { TypeAnimation } from "react-type-animation";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { BsArrowDown } from "react-icons/bs";
 
 const Introduction = () => {
   return (
@@ -32,8 +34,26 @@ const Introduction = () => {
             repeat={Infinity}
           />
           <div className="flex flex-col pt-6 pb-20 lg:flex-row lg:pt-8 ">
-            <button className="pb-2 lg:pb-0 lg:mr-4">Mon Cv</button>
-            <button className="pt-2 lg:pt-0 lg:ml-4">Mes projets</button>
+            <a href="">
+              <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700">
+                <button className=" font-pixeloid mb-1 px-2 lg:mb-0 lg:ml-4 border-2 rounded-full lg:px-6 lg:py-2 border-black dark:border-white ">
+                  Mon Cv
+                </button>
+              </div>
+            </a>
+            <a href="">
+              <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700">
+                <button className=" font-pixeloid mt-1 px-2  lg:mt-0 lg:ml-4  border-2 rounded-full lg:px-6 lg:py-2  border-black dark:border-white ">
+                  Mes projets
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <div className="lg:flex lg:justify-center lg:items-center">
+            <AnchorLink offset={() => 100} href="#about">
+              <BsArrowDown className=" arrow bounce" size={30} onClick={""} />
+            </AnchorLink>
           </div>
         </div>
       </div>
@@ -43,49 +63,47 @@ const Introduction = () => {
             <h1 className="uppercase py-1 lg:text-4xl">à propos</h1>
           </Titre>
         </div>
-        <div className="mt-8 lg:grid lg:grid-cols-2" data-aos={"fade-right"}>
-          <Card className="lg:py-8 lg:px-8 my-4 mx-4 py-2">
-            <div className="px-8">
-              <div className="flex flex-col justify-center items-center lg:grid lg:grid-cols-2">
-                <div className="py-8">
-                  <Image
-                    className="rounded-full"
-                    src="/Images/ayanokoji.png"
-                    width={200}
-                    height={200}
-                    alt="Maxence Dupre"
-                  />
-                </div>
-                <div className="font-retrogaming pb-8 text-center text-xs lg:w-full lg:flex lg:flex-col lg:text-center lg:justify-start lg:text-2xl dark:text-white ">
-                  <p>
-                    Age :
-                    <br />
-                    21ans
-                  </p>
-                  <p className="py-4">
-                    Télephone :
-                    <br />
-                    06.03.92.29.48
-                  </p>
-                  <p>
-                    Email :
-                    <br />
-                    Maxencedpr@icloud.com
-                  </p>
-                </div>
+        <div className="mt-8 lg:grid lg:grid-cols-2 lg:mx-4">
+          <Card className="lg:py-4 lg:px-4 my-4 mx-4 py-2 lg:flex lg:justify-center lg:items-center">
+            <div className="flex flex-col justify-center items-center px-8 lg:grid lg:grid-cols-2">
+              <div className="py-8 ">
+                <Image
+                  className="rounded-full"
+                  src="/Images/ayanokoji.png"
+                  width={200}
+                  height={200}
+                  alt="Maxence Dupre"
+                />
+              </div>
+              <div className="font-retrogaming  text-center text-xs lg:w-full lg:flex lg:flex-col lg:text-center lg:justify- lg:text-xl dark:text-white  lg:mx-4">
+                <p>
+                  Age :
+                  <br />
+                  21ans
+                </p>
+                <p className="py-4">
+                  Télephone :
+                  <br />
+                  06.03.92.29.48
+                </p>
+                <p>
+                  Email :
+                  <br />
+                  Maxencedpr@icloud.com
+                </p>
               </div>
             </div>
           </Card>
+
           <div>
-            <Card className="dark:text-white p-4 my-2 mx-4 lg:my-8 lg:mx-8">
-              <p className="lg:text-2xl font-retrogaming text-xs py-4">
+            <Card className="dark:text-white p-4 my-2 mx-4 ">
+              <p className="lg:text-xl xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt officia porro optio tempora vero quibusdam cumque
-                ratione possimus laborum nemo eum, adipisci fugiat amet beatae
-                eius facilis vel. Eligendi, voluptatum.Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Nesciunt officia porro optio
-                tempora vero quibusdamLorem ipsum dolor sit amet consectetur
-                adipisicing elit.
+                ratione possimus laiat amet beatae eius facilis vel. Eligendi,
+                voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nesciunt officia porro optio ipsum dolor sit amet
+                consectetur adipisicing elit.
               </p>
             </Card>
           </div>

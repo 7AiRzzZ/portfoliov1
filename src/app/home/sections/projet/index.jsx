@@ -12,8 +12,8 @@ const Projet = () => {
           <h1 className="uppercase py-1 lg:text-4xl">Projets</h1>
         </Titre>
       </div>
-      <div className="mb-4 mx-12 bg-green-400/30 border-t-4 border-b-4 border-t-green-700 border-b-white shadow-lg lg:mx-80">
-        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl">
+      <div className="mb-4 mx-12 contain border-t-4 border-b-4 border-t-green-700 border-b-white shadow-lg lg:mx-80">
+        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl dark:text-white">
           En autonomie
         </h1>
       </div>
@@ -25,14 +25,16 @@ const Projet = () => {
                 key={project.id}
                 className=" dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
               >
-                <ProjetCard className="containproject">
+                <ProjetCard className="containproject flex flex-col items-center justify-center pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
                   <Image
                     src={project.image}
                     width={150}
                     height={150}
                     alt="Maxence Dupre"
                   />
-                  <p className="text-center">{project.description}</p>
+                  
+                    <p className=" py-8 px-1 lg:text-xl">{project.description}</p>
+                  
                 </ProjetCard>
               </div>
             );
@@ -40,8 +42,8 @@ const Projet = () => {
         </div>
       </div>
       {/* -------------------------------------------------------------------------------------------------------*/}
-      <div className="my-4 mx-12 bg-green-400/30 border-t-4 border-b-4 border-t-green-700 border-b-white shadow-lg lg:mt-12 lg:mx-80">
-        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl">
+      <div className="my-4 mx-12 contain border-t-4 border-b-4 border-t-green-700 border-b-white shadow-lg lg:mt-12 lg:mx-80">
+        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl dark:text-white">
           En collaboration
         </h1>
       </div>
@@ -53,14 +55,14 @@ const Projet = () => {
                 key={project.id}
                 className="dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
               >
-                <ProjetCard className="containproject">
+                <ProjetCard className="containproject flex flex-col items-center justify-center pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
                   <Image
                     src={project.image}
                     width={150}
                     height={150}
                     alt="Maxence Dupre"
                   />
-                  <p className="text-center">{project.description}</p>
+                  <p className=" py-8 px-1 lg:text-xl">{project.description}</p>
                 </ProjetCard>
               </div>
             );

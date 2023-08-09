@@ -9,23 +9,23 @@ const Form = () => {
   };
 
   return (
-    <form className="w-full p-4" action="">
+    <form className="w-full p-4 text-black" action="">
       <div className="lg:grid lg:grid-cols-2">
         <div className="flex flex-col lg:mx-10 lg:py-4 lg:px-4">
-          <label className="lg:pl-8" htmlFor="">
+          <label className="lg:pl-8 dark:text-white" htmlFor="">
             Prénom / nom :
           </label>
           <Input type="text" placeholder="Votre nom et prénom" />
         </div>
         <div className="flex flex-col py-4 lg:mx-10 lg:py-4 lg:px-4">
-          <label className="lg:pl-8" htmlFor="">
+          <label className="lg:pl-8 dark:text-white" htmlFor="">
             Email :
           </label>
           <Input type="text" placeholder="Votre email" />
         </div>
       </div>
       <div className="flex flex-col">
-        <label className="lg:pl-20" htmlFor="">
+        <label className="lg:pl-20 dark:text-white" htmlFor="">
           Objet :
         </label>
         <textarea
