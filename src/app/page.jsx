@@ -1,13 +1,14 @@
 "use client";
 
-import Footer from "./components/layouts/footer";
-import NavBar from "./components/layouts/navbar";
-import Home from "./home";
-import ParticlesProvider from "./components/context/particlesProvider";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
-import ReturnToTop from "./components/tools/returnToTop";
+
+import ParticlesProvider from "@/app/components/context/particlesProvider";
+import NavBar from "@/app/components/layouts/navbar";
+import Home from "./home";
+import Footer from "@/app/components/layouts/footer";
+import ReturnToTop from "@/app/components/tools/returnToTop";
 
 const HomePage = () => {
   useEffect(() => {

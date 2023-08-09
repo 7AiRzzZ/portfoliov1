@@ -16,16 +16,16 @@ const Parcours = () => {
         <div className="flex flex-col items-center lg:my-4">
           {parcoursData.map((parcours) => {
             return (
-              <Card>
-                <div className="flex flex-row">
+              <div key={parcours.id} className="flex flex-row">
+                <Card>
                   <div className="p-4">
                     <Image src={parcours.image} width={70} height={70} />
                   </div>
                   <div className="flex justify-center items-center">
                     <p>{parcours.description}</p>
                   </div>
-                </div>
-              </Card>
+                </Card>
+              </div>
             );
           })}
         </div>

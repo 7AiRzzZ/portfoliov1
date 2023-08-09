@@ -14,7 +14,7 @@ export const Competences = () => {
       <div className="grid grid-cols-2 lg:grid-cols-3">
         {data.map((skill) => {
           return (
-            <div className="p-2">
+            <div key={skill.id} className="p-2">
               <Card className="flex items-center justify-center p-4">
                 <Image
                   src={skill.image}

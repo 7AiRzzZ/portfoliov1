@@ -21,8 +21,11 @@ const Projet = () => {
         <div className="lg:mt-4 lg:mx-20 lg:grid grid-cols-2">
           {projectSolo.map((project) => {
             return (
-              <ProjetCard className="containproject">
-                <div className=" dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row">
+              <div
+                key={project.id}
+                className=" dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
+              >
+                <ProjetCard className="containproject">
                   <Image
                     src={project.image}
                     width={150}
@@ -30,8 +33,8 @@ const Projet = () => {
                     alt="Maxence Dupre"
                   />
                   <p className="text-center">{project.description}</p>
-                </div>
-              </ProjetCard>
+                </ProjetCard>
+              </div>
             );
           })}
         </div>
@@ -46,8 +49,11 @@ const Projet = () => {
         <div className="lg:mt-4 lg:mx-20 lg:grid grid-cols-2">
           {projectCollab.map((project) => {
             return (
-              <ProjetCard className="containproject">
-                <div className="dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row">
+              <div
+                key={project.id}
+                className="dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
+              >
+                <ProjetCard className="containproject">
                   <Image
                     src={project.image}
                     width={150}
@@ -55,8 +61,8 @@ const Projet = () => {
                     alt="Maxence Dupre"
                   />
                   <p className="text-center">{project.description}</p>
-                </div>
-              </ProjetCard>
+                </ProjetCard>
+              </div>
             );
           })}
         </div>
