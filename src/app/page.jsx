@@ -5,9 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import ParticlesProvider from "@/app/components/context/particlesProvider";
-import NavBar from "@/app/components/layouts/navbar";
+// import NavBar from "@/app/components/layouts/navbar";
 import Home from "./home";
-import Footer from "@/app/components/layouts/footer";
+// import Footer from "@/app/components/layouts/footer";
 import ReturnToTop from "@/app/components/tools/returnToTop";
 
 const HomePage = () => {
@@ -17,9 +17,9 @@ const HomePage = () => {
 
   return (
     <ParticlesProvider>
-      <NavBar />
+      {/* <NavBar /> */}
       <Home />
-      <Footer />
+      {/* <Footer /> */}
       <ReturnToTop />
     </ParticlesProvider>
   );
