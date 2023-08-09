@@ -8,6 +8,7 @@ import ParticlesProvider from "@/app/components/context/particlesProvider";
 import Home from "./home";
 import ReturnToTop from "@/app/components/tools/returnToTop";
 import Footer from "@/app/components/layouts/footer";
+import NavBar from "./components/layouts/navbar";
 
 const HomePage = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const HomePage = () => {
 
   return (
     <ParticlesProvider>
+      <NavBar />
       <Home />
       <Footer />
       <ReturnToTop />

@@ -8,7 +8,7 @@ import { LuToggleLeft, LuToggleRight } from "react-icons/lu";
 import DarkMode from "@/app/components/tools/darkMode";
 import ParticlesBackground from "@/app/components/tools/particles";
 
-const NavbarMobile = () => {
+const M = () => {
   const { theme, setTheme } = useContext(ParticlesContext);
   const [showButton, setShowButton] = useState(false);
 
@@ -52,4 +52,4 @@ const NavbarMobile = () => {
   );
 };
 
-export default NavbarMobile;
+export default M;

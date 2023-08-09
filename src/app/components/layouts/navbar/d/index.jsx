@@ -5,7 +5,7 @@ import { ParticlesContext } from "@/app/components/context/particlesProvider";
 import { LuToggleLeft, LuToggleRight } from "react-icons/lu";
 import DarkMode from "@/app/components/tools/darkMode";
 
-const NavbarDesktop = () => {
+const D = () => {
   const { theme, setTheme } = useContext(ParticlesContext);
   const [showButton, setShowButton] = useState(false);
 
@@ -63,4 +63,4 @@ const NavbarDesktop = () => {
     </header>
   );
 };
-export default NavbarDesktop;
+export default D;

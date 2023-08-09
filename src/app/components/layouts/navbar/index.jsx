@@ -1,11 +1,11 @@
-import NavbarMobile from "@/app/components/layouts/navbar/mobile";
-import NavbarDesktop from "@/app/components/layouts/navbar/desktop";
+import D from "./d";
+import M from "./m";
 
 const NavBar = () => {
   return (
     <>
-      <NavbarMobile />
-      <NavbarDesktop />
+      <D />
+      <M />
     </>
   );
 };
