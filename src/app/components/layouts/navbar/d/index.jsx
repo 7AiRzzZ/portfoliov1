@@ -1,5 +1,4 @@
-import Button from "@/app/components/tools/button";
-import Image from "next/image";
+
 import { useContext, useState } from "react";
 import { ParticlesContext } from "@/app/components/context/particlesProvider";
 import { LuToggleLeft, LuToggleRight } from "react-icons/lu";

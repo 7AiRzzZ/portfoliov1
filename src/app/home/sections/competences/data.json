@@ -1,34 +1,35 @@
 [
     {
         "id": 1,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/html.svg",
+     "style":{"class": "text-white"}
     },
     {
         "id": 2,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/css.svg"
     },
     {
         "id": 3,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/javascript.svg"
     },
     {
         "id": 4,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/react.svg"
     },
     {
         "id": 5,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/tailwind.svg"
     },
     {
         "id": 6,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/php.svg"
     },
     {
         "id": 7,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/mysql.svg"
     },
     {
         "id": 8,
-        "image": "/Images/Imaginationtattoo.png"
+        "image": "/symfony.svg"
     }
 ]

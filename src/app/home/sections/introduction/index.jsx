@@ -50,7 +50,7 @@ const Introduction = () => {
             </a>
           </div>
 
-          <div className="lg:flex lg:justify-center lg:items-center">
+          <div className="flex justify-center items-center" >
             <AnchorLink offset={() => 100} href="#about">
               <BsArrowDown className=" arrow bounce" size={30} onClick={""} />
             </AnchorLink>
@@ -86,7 +86,7 @@ const Introduction = () => {
                   <br />
                   06.03.92.29.48
                 </p>
-                <p>
+                <p className="mb-4">
                   Email :
                   <br />
                   Maxencedpr@icloud.com
