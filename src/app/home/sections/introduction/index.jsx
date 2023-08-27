@@ -35,14 +35,14 @@ const Introduction = () => {
           />
           <div className="flex flex-col pt-6 pb-20 lg:flex-row lg:pt-8 ">
             <a href="">
-              <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700">
-                <button className=" font-pixeloid mb-1 px-2 lg:mb-0 lg:ml-4 border-2 rounded-full lg:px-6 lg:py-2 border-black dark:border-white ">
+              <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400">
+                <button className=" font-pixeloid mb-1 px-4 lg:mb-0 lg:ml-4 border-2 rounded-full lg:px-6 lg:py-2 border-black dark:border-white ">
                   Mon Cv
                 </button>
               </div>
             </a>
             <a href="">
-              <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700">
+              <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400">
                 <button className=" font-pixeloid mt-1 px-2  lg:mt-0 lg:ml-4  border-2 rounded-full lg:px-6 lg:py-2  border-black dark:border-white ">
                   Mes projets
                 </button>
@@ -50,7 +50,7 @@ const Introduction = () => {
             </a>
           </div>
 
-          <div className="flex justify-center items-center" >
+          <div className="flex justify-center items-center">
             <AnchorLink offset={() => 100} href="#about">
               <BsArrowDown className=" arrow bounce" size={30} onClick={""} />
             </AnchorLink>
@@ -97,14 +97,16 @@ const Introduction = () => {
 
           <div>
             <Card className="dark:text-white p-4 my-2 mx-4 ">
-              <p className="lg:text-xl xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt officia porro optio tempora vero quibusdam cumque
-                ratione possimus laiat amet beatae eius facilis vel. Eligendi,
-                voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Nesciunt officia porro optio ipsum dolor sit amet
-                consectetur adipisicing elit.
-              </p>
+              <p className="xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8">
+                Je suis un développeur web Front-end /back-end ainsi que web mobile .
+              <br />
+              <br />
+              j'ai travaillé dans plusieurs domaines différents de ce qui concerne le monde d'internet mais j'ai enfin trouvé ce que j'aime réellement.
+              <br />
+              <br />
+                je suis un passioner de jeux vidéo  comme " League of legends , Valorant , Fifa etc ... " et d'animé en géneral !
+                
+                </p>
             </Card>
           </div>
         </div>

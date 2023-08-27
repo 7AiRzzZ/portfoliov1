@@ -12,7 +12,7 @@ const Projet = () => {
           <h1 className="uppercase py-1 lg:text-4xl">Projets</h1>
         </Titre>
       </div>
-      <div className="mb-4 mx-12 containproject border-[3px] border-black shadow-lg lg:mx-80">
+      <div className="mb-4 mx-12 containproject border-[3px] border-black dark:border-t-white dark:border-b-white dark:border-r-transparent dark:border-l-transparent shadow-lg lg:mx-80">
         <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl dark:text-white">
           En autonomie
         </h1>
@@ -25,7 +25,7 @@ const Projet = () => {
                 key={project.id}
                 className=" dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
               >
-                <ProjetCard className="contain flex flex-col items-center justify-center pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
+                <ProjetCard className=" dark:border-white dark:containblack contain flex flex-col items-center justify-center pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
                   <Image
                     src={project.image}
                     width={150}
@@ -42,7 +42,7 @@ const Projet = () => {
         </div>
       </div>
       {/* -------------------------------------------------------------------------------------------------------*/}
-      <div className="my-4 mx-12 containproject  border-[3px] border-black lg:mt-12 lg:mx-80">
+      <div className="my-4 mx-12 containproject  border-[3px] border-black  dark:border-t-white dark:border-b-white dark:border-r-transparent dark:border-l-transparent lg:mt-12 lg:mx-80 ">
         <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl dark:text-white">
           En collaboration
         </h1>

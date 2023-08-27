@@ -17,19 +17,22 @@ const D = () => {
           </div>
           <div className="">
             <ul className="flex flex-row justify-evenly text-white py-6">
-              <li className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700 font-pixeloid text-xl">
+            <li className=" px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400 font-pixeloid text-xl">
+              <a href="">Accueil</a>
+              </li>
+              <li className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400 font-pixeloid text-xl">
               <a href="">A propos</a>
               </li>
-              <li className="px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700  font-pixeloid text-xl">
+              <li className="px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
               <a href="">Compétences</a>
               </li>
-              <li className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700  font-pixeloid text-xl">
+              <li className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
               <a href="">Projects</a>
               </li>
-              <li className="px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700  font-pixeloid text-xl">
+              <li className="px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
               <a href="">Parcours</a>
               </li>
-              <li  className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700  font-pixeloid text-xl">
+              <li  className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
                 <a href="">Contact</a>
               </li>
             </ul>
