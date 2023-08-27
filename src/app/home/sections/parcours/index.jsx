@@ -17,7 +17,7 @@ const Parcours = () => {
           {parcoursData.map((parcours) => {
             return (
               <div key={parcours.id} className="flex flex-row lg:flex lg:flex-row  lg:justify-center lg:items-center ">
-                <Card className=" lg:flex lg:flex-row lg:justify-center lg:items-center lg:py-4 lg:px-4">
+                <Card className=" containproject lg:flex lg:flex-row lg:justify-center lg:items-center lg:py-4 lg:px-4">
                   <div className="p-4 flex justify-center items-center">
                     <Image src={parcours.image} width={100} height={100} />
                   </div>
