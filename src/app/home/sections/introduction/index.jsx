@@ -64,7 +64,7 @@ const Introduction = () => {
           </Titre>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:mx-4">
-          <Card className="lg:py-4 lg:px-4 my-4 mx-4 py-2 lg:flex lg:justify-center lg:items-center">
+          <Card className="dark:border-white lg:py-4 lg:px-4 my-4 mx-4 py-2 lg:flex lg:justify-center lg:items-center">
             <div className="flex flex-col justify-center items-center px-8 lg:grid lg:grid-cols-2">
               <div className="py-8 ">
                 <Image
@@ -96,7 +96,7 @@ const Introduction = () => {
           </Card>
 
           <div>
-            <Card className="dark:text-white p-4 my-2 mx-4 ">
+            <Card className="dark:text-white dark:border-white p-4 my-2 mx-4 ">
               <p className="xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8">
                 Je suis un développeur web Front-end /back-end ainsi que web mobile .
               <br />
@@ -104,7 +104,7 @@ const Introduction = () => {
               j'ai travaillé dans plusieurs domaines différents de ce qui concerne le monde d'internet mais j'ai enfin trouvé ce que j'aime réellement.
               <br />
               <br />
-                je suis un passioner de jeux vidéo  comme " League of legends , Valorant , Fifa etc ... " et d'animé en géneral !
+                Mes hobies sont les jeux vidéos comme " League of legends , Valorant , Fifa etc ... " et d'animé en géneral !
                 
                 </p>
             </Card>

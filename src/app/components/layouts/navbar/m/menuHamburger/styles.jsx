@@ -27,7 +27,7 @@ export let styles = {
   },
   bmMenu: {
     width: "100%",
-    background: "#1DA36B",
+    background: "#68A0F4",
     fontSize: "1.15em",
   },
   bmMorphShape: {

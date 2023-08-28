@@ -21,7 +21,7 @@ const D = () => {
           href={"https://github.com/7AiRzzZ"}
         >
           <FontAwesomeIcon
-            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700"
+            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400"
             size="2x"
             icon={faGithub}
           />
@@ -31,7 +31,7 @@ const D = () => {
           href={"https://www.linkedin.com/in/maxence-dupre-468256280/"}
         >
           <FontAwesomeIcon
-            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700"
+            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400"
             size="2x"
             icon={faLinkedin}
           />
@@ -41,7 +41,7 @@ const D = () => {
           href={"https://discord.gg/6qj8zqFh"}
         >
           <FontAwesomeIcon
-            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700"
+            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400"
             size="2x"
             icon={faDiscord}
           />
@@ -51,7 +51,7 @@ const D = () => {
           href={"https://twitter.com/_AiRzzZ"}
         >
           <FontAwesomeIcon
-            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700"
+            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400"
             size="2x"
             icon={faTwitter}
           />
@@ -61,7 +61,7 @@ const D = () => {
           href={"https://www.instagram.com/7Maxoouuu/?hl=fr"}
         >
           <FontAwesomeIcon
-            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-green-700"
+            className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400"
             size="2x"
             icon={faInstagram}
           />
