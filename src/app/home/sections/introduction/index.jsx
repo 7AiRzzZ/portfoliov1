@@ -101,10 +101,10 @@ const Introduction = () => {
                 Je suis un développeur web Front-end /back-end ainsi que web mobile .
               <br />
               <br />
-              j'ai travaillé dans plusieurs domaines différents de ce qui concerne le monde d'internet mais j'ai enfin trouvé ce que j'aime réellement.
+              j&apos;ai travaillé dans plusieurs domaines différents de ce qui concerne le monde d&apos;internet mais j&apos;ai enfin trouvé ce que j&apos;aime réellement.
               <br />
               <br />
-                Mes hobies sont les jeux vidéos comme " League of legends , Valorant , Fifa etc ... " et d'animé en géneral !
+                Mes hobies sont les jeux vidéos comme " League of legends , Valorant , Fifa etc ... " et d&apos;animé en géneral !
                 
                 </p>
             </Card>
