@@ -1,4 +1,4 @@
-import Button from "@/app/components/tools/button";
+
 import Card from "@/app/components/tools/card";
 import Image from "next/image";
 import Titre from "@/app/components/tools/titre";
