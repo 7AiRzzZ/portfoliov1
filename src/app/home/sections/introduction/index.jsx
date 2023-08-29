@@ -98,15 +98,18 @@ const Introduction = () => {
           <div>
             <Card className="dark:text-white dark:border-white p-4 my-2 mx-4 ">
               <p className="xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8">
-                Je suis un développeur web Front-end /back-end ainsi que web mobile .
-              <br />
-              <br />
-              j&apos;ai travaillé dans plusieurs domaines différents de ce qui concerne le monde d&apos;internet mais j&apos;ai enfin trouvé ce que j&apos;aime réellement.
-              <br />
-              <br />
-                Mes hobies sont les jeux vidéos comme " League of legends , Valorant , Fifa etc ... " et d&apos;animé en géneral !
-                
-                </p>
+                Je suis un développeur web Front-end /back-end ainsi que web
+                mobile .
+                <br />
+                <br />
+                j &apos; ai travaillé dans plusieurs domaines différents de ce
+                qui concerne le monde d &apos; internet mais j &apos; ai enfin
+                trouvé ce que j&apos;aime réellement.
+                <br />
+                <br />
+                Mes hobies sont les jeux vidéos comme " League of legends ,
+                Valorant , Fifa etc ... " et d &apos; animé en géneral !
+              </p>
             </Card>
           </div>
         </div>

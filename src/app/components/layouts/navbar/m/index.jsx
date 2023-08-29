@@ -7,6 +7,7 @@ import MenuHamburger from "./menuHamburger";
 import { LuToggleLeft, LuToggleRight } from "react-icons/lu";
 import DarkMode from "@/app/components/tools/darkMode";
 import ParticlesBackground from "@/app/components/tools/particles";
+import Image from "next/image";
 
 const M = () => {
   const { theme, setTheme } = useContext(ParticlesContext);
@@ -20,7 +21,7 @@ const M = () => {
         </div>
         <div className="flex justify-center items-center">
           <a href="http://localhost:3000">
-            <img src="/Images/ayanokoji.png" alt="" width={50} height={50} />
+            <Image src="/Images/ayanokoji.png" alt="" width={50} height={50} />
           </a>
         </div>
         <div className="flex justify-center items-center">
