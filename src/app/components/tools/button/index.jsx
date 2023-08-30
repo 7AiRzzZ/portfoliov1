@@ -1,16 +1,14 @@
-import "./styles.css";
+
 import PropTypes from "prop-types";
 
 const Button = ({ type, onClick, text }) => {
   return (
     <>
-      <div class="container">
+      <div class="bg-white/30 border-2 border-black mt-6 my-2 mx-64 items-center justify-center text-center flex active:bg-blue-700/30">
         <a href="#" class="button">
-          <div class="button__line"></div>
-          <div class="button__line"></div>
-          <button type={type} onClick={onClick} class="button__text">{text}</button>
-          <div class="button__drow1"></div>
-          <div class="button__drow2"></div>
+          <button type={type} onClick={onClick} class=" w-full">
+            {text}
+          </button>
         </a>
       </div>
     </>
@@ -20,6 +18,6 @@ const Button = ({ type, onClick, text }) => {
 Button.propTypes = {
   text: PropTypes.string,
   onClick: PropTypes.func,
-  type: PropTypes.string
+  type: PropTypes.string,
 };
 export default Button;

@@ -9,7 +9,7 @@ const Form = () => {
   };
 
   return (
-    <form className="w-full p-4 text-black" action="">
+    <form className="w-full rounded-none p-4 text-black" action="">
       <div className="lg:grid lg:grid-cols-2">
         <div className="flex flex-col lg:mx-10 lg:py-4 lg:px-4">
           <label className="lg:pl-8 dark:text-white" htmlFor="">
@@ -21,7 +21,7 @@ const Form = () => {
           <label className="lg:pl-8 dark:text-white" htmlFor="">
             Email :
           </label>
-          <Input type="text" placeholder="Votre email" />
+          <Input  type="text" placeholder="Votre email" />
         </div>
       </div>
       <div className="flex flex-col">
@@ -29,7 +29,7 @@ const Form = () => {
           Objet :
         </label>
         <textarea
-          className="border-2 rounded-lg border-black text-xs py-4 lg:py-8 lg:mx-16"
+          className="border-2  border-black text-xs py-4 lg:py-8 lg:mx-20"
           placeholder="Votre message"
           name=""
           id=""

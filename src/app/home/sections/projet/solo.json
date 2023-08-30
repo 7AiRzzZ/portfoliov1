@@ -1,12 +1,16 @@
 [
   {
     "id": 1,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"mt-12",
+    "image": "/Images/portfolio-sreen.png",
+    "description": "Portfolio",
+    "description2": "html / css / react /tailwind / javascript "
   },
   {
     "id": 2,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"",
+    "image": "/Images/ImaginationTattoo.png",
+    "description": "ImaginationTattoo",
+    "description2": "html / css / react /tailwind / javascript "
   }
 ]

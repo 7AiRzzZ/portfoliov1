@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"pr-12",
+    "image": "/code.svg",
+    "description": "(2023-2024) Formation Access Code School ."
   },
   {
     "id": 2,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"align-items-left",
+    "image": "/voiture.svg",
+    "description": "(2020) Obtention du permis B."
   },
   {
     "id": 3,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"",
+    "image": "/usine.svg",
+    "description": "(2020 - 2022) MaFrance - Opérateur ferrage , agent qualité. "
   },
   {
     "id": 4,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"",
+    "image": "/bac.svg",
+    "description": "(2018) Obtention du Bac Professionnel Logistique"
   }
 ]

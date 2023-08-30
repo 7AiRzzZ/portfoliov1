@@ -1,12 +1,16 @@
 [
   {
     "id": 1,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"",
+    "image": "/Images/VirtusDev-bleu.png",
+    "description": "VirtusDev",
+    "description2": "html / css / react /tailwind / javascript "
   },
   {
     "id": 2,
-    "image": "/Images/ayanokoji.png",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.ipsum dolor sit amet consectetur, adipisicing elit."
+    "className":"",
+    "image": "/Images/soon.png",
+    "description": "À venir",
+    "description2": "..."
   }
 ]
