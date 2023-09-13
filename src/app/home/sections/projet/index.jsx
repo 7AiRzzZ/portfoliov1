@@ -25,7 +25,7 @@ const Projet = () => {
                 key={project.id}
                 className=" dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
               >
-                <ProjetCard className=" dark:border-white dark:containblack contain w-full h-96 flex flex-col items-center justify-center pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
+                <ProjetCard className=" dark:border-white dark:containblack contain w-full h-96 flex flex-col items-center justify-center mx-4 pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
                   <div>
                     <Image
                       src={project.image}
