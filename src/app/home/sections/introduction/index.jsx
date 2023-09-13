@@ -67,18 +67,18 @@ const Introduction = () => {
           </Titre>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:mx-4">
-          <Card className="dark:border-white lg:py-4 lg:px-4 my-4 mx-4 py-2 lg:flex lg:justify-center lg:items-center">
-            <div className="flex flex-col justify-center items-center px-8 lg:grid lg:grid-cols-2">
-              <div className="py-8 ">
+          <Card className="dark:border-white flex items-center justify-center lg:py-4 lg:px-4 my-4 mx-4  lg:flex lg:justify-center lg:items-center">
+            <div className="flex flex-col justify-center items-center px-8 lg:px-8 lg:grid lg:grid-cols-2">
+              <div className="pb-8 ">
                 <Image
-                  className="rounded-full"
-                  src="/Images/moi-png.png"
+                  className="rounded-full flex items-center justify-center"
+                  src="/Images/Maxence.png"
                   width={200}
-                  height={200}
+                  height={100}
                   alt="Maxence Dupre"
                 />
               </div>
-              <div className="font-retrogaming  text-center text-xs lg:w-full lg:flex lg:flex-col lg:text-center lg:justify- lg:text-xl dark:text-white  lg:mx-4">
+              <div className="font-retrogaming  text-center text-xs  hover:text-white lg:w-full lg:flex lg:flex-col lg:text-center lg:justify- lg:text-lg dark:text-white  lg:mr-8">
                 <p>
                   Age :
                   <br />
@@ -100,7 +100,7 @@ const Introduction = () => {
 
           <div>
             <Card className="dark:text-white dark:border-white p-4 my-2 mx-4 ">
-              <p className="xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8">
+              <p className="xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8 lg:text-lg  hover:text-white">
                 Je suis un développeur web Front-end /back-end ainsi que web
                 mobile .
                 <br />

@@ -3,6 +3,7 @@ import ProjetCard from "@/app/components/tools/projetCard/projetCard";
 import Titre from "@/app/components/tools/titre";
 import projectSolo from "./solo.json";
 import projectCollab from "./collab.json";
+import { AiFillGithub } from "react-icons/ai";
 
 const Projet = () => {
   return (
@@ -13,7 +14,7 @@ const Projet = () => {
         </Titre>
       </div>
       <div className="mb-4 mx-12 containproject border-[3px] border-black dark:bg-blue-800/60 dark:border-t-white dark:border-b-white dark:border-r-transparent dark:border-l-transparent shadow-lg lg:mx-80">
-        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl dark:text-white">
+        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl  hover:text-white dark:text-white">
           En autonomie
         </h1>
       </div>
@@ -35,12 +36,21 @@ const Projet = () => {
                     />
                   </div>
 
-                  <p className={`font-semibold pt-8 px-1 lg:text-xl  lg:text-center ${project.className}`}>
+                  <p
+                    className={`font-semibold pt-8 px-1 lg:text-xl  lg:text-center ${project.className}`}
+                  >
                     {project.description}
                   </p>
-                  <p className={` py-1 px-1 lg:text-xl text-center lg:text-center`}>
+                  <p
+                    className={` py-1 px-1 lg:text-xl text-center lg:text-center hover:text-white`}
+                  >
                     {project.description2}
                   </p>
+                  <div className="flex items-center justify-center mt-2 opacity-70 hover:transition hover:ease-out hover:duration-200 hover:scale-105 hover:text-white">
+                    <a href="https://github.com/7AiRzzZ?tab=repositories">
+                      <AiFillGithub size={30} />
+                    </a>
+                  </div>
                 </ProjetCard>
               </div>
             );
@@ -50,7 +60,7 @@ const Projet = () => {
       {/* -------------------------------------------------------------------------------------------------------*/}
       {/* -------------------------------------------------------------------------------------------------------*/}
       <div className="my-4 mx-12 containproject  border-[3px] border-black dark:bg-blue-800/60 dark:border-t-white dark:border-b-white dark:border-r-transparent dark:border-l-transparent lg:mt-12 lg:mx-80 ">
-        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl dark:text-white">
+        <h1 className="font-pixeloid uppercase text-center py-2 lg:text-4xl  hover:text-white dark:text-white">
           En collaboration
         </h1>
       </div>
@@ -71,12 +81,21 @@ const Projet = () => {
                       alt=""
                     />
                   </div>
-                  <p className={` font-semibold pt-8 px-1 lg:text-xl lg:text-center${project.className}`}>
+                  <p
+                    className={` font-semibold pt-8 px-1 lg:text-xl lg:text-center${project.className}`}
+                  >
                     {project.description}
                   </p>
-                  <p className={` py-1 px-1 lg:text-xl text-center lg:text-center `}>
+                  <p
+                    className={` py-1 px-1 lg:text-xl text-center lg:text-center  hover:text-white`}
+                  >
                     {project.description2}
                   </p>
+                  <div className="flex items-center justify-center mt-2 opacity-70 hover:transition hover:ease-out hover:duration-200 hover:scale-105  hover:text-white">
+                    <a href="https://github.com/7AiRzzZ?tab=repositories">
+                      <AiFillGithub size={30} />
+                    </a>
+                  </div>
                 </ProjetCard>
               </div>
             );

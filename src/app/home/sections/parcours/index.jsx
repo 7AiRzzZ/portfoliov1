@@ -28,7 +28,7 @@ const Parcours = () => {
                       className={`${parcours.className}`}
                     />
                   </div>
-                  <div className=" font-retrogaming flex justify-center  py-4 items-center lg:text-xl">
+                  <div className=" font-retrogaming flex justify-center  py-4 items-center lg:text-xl  hover:text-white">
                     <p>{parcours.description}</p>
                   </div>
                 </div>
