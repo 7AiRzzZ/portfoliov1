@@ -23,7 +23,7 @@ const Projet = () => {
             return (
               <div
                 key={project.id}
-                className=" dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
+                className=" dark:text-white font-retrogaming flex flex-col items-center justify-center mx-4 lg:flex-row"
               >
                 <ProjetCard className=" dark:border-white dark:containblack contain w-full h-96 flex flex-col items-center justify-center mx-4 pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
                   <div>
@@ -35,10 +35,10 @@ const Projet = () => {
                     />
                   </div>
 
-                  <p className={`font-semibold pt-8 px-1 lg:text-xl lg:text-center ${project.className}`}>
+                  <p className={`font-semibold pt-8 px-1 lg:text-xl  lg:text-center ${project.className}`}>
                     {project.description}
                   </p>
-                  <p className={` py-1 px-1 lg:text-xl lg:text-center`}>
+                  <p className={` py-1 px-1 lg:text-xl text-center lg:text-center`}>
                     {project.description2}
                   </p>
                 </ProjetCard>
@@ -60,7 +60,7 @@ const Projet = () => {
             return (
               <div
                 key={project.id}
-                className="dark:text-white font-retrogaming flex flex-col items-center justify-center lg:flex-row"
+                className="dark:text-white font-retrogaming flex flex-col items-center justify-center mx-4 lg:flex-row"
               >
                 <ProjetCard className="contain flex flex-col w-full h-96 items-center justify-center pt-8 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-8 lg:px-8 lg:mx-8">
                   <div className=" h-36">
@@ -74,7 +74,7 @@ const Projet = () => {
                   <p className={` font-semibold pt-8 px-1 lg:text-xl lg:text-center${project.className}`}>
                     {project.description}
                   </p>
-                  <p className={` py-1 px-1 lg:text-xl lg:text-center `}>
+                  <p className={` py-1 px-1 lg:text-xl text-center lg:text-center `}>
                     {project.description2}
                   </p>
                 </ProjetCard>
