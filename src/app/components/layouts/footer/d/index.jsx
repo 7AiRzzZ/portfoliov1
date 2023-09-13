@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -16,7 +15,7 @@ const D = () => {
     <footer className="hidden lg:flex lg:flex-col text-center w-full h-full text-white">
       <hr />
       <div className="py-4 bg-black opacity-90 grid grid-cols-5 justify-center items-center  ">
-        <Link
+        <a
           className=" flex justify-center items-center "
           href={"https://github.com/7AiRzzZ"}
         >
@@ -25,8 +24,8 @@ const D = () => {
             size="2x"
             icon={faGithub}
           />
-        </Link>
-        <Link
+        </a>
+        <a
           className=" flex justify-center items-center "
           href={"https://www.linkedin.com/in/maxence-dupre-468256280/"}
         >
@@ -35,18 +34,19 @@ const D = () => {
             size="2x"
             icon={faLinkedin}
           />
-        </Link>
-        <Link
+        </a>
+        <a
+        
           className=" flex justify-center items-center "
-          href={"https://discord.gg/6qj8zqFh"}
+          href={"https://discord.gg/528hWKN6RK"}
         >
           <FontAwesomeIcon
             className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400"
             size="2x"
             icon={faDiscord}
           />
-        </Link>
-        <Link
+        </a>
+        <a
           className=" flex justify-center items-center "
           href={"https://twitter.com/_AiRzzZ"}
         >
@@ -55,8 +55,8 @@ const D = () => {
             size="2x"
             icon={faTwitter}
           />
-        </Link>
-        <Link
+        </a>
+        <a
           className=" flex justify-center items-center "
           href={"https://www.instagram.com/7Maxoouuu/?hl=fr"}
         >
@@ -65,7 +65,7 @@ const D = () => {
             size="2x"
             icon={faInstagram}
           />
-        </Link>
+        </a>
       </div>
       <hr />
       <div className="bg-black text-xl flex flex-col py-6 items-center justify-center">

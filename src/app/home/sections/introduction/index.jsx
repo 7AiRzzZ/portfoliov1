@@ -69,7 +69,7 @@ const Introduction = () => {
               <div className="py-8 ">
                 <Image
                   className="rounded-full"
-                  src="/Images/ayanokoji.png"
+                  src="/Images/moi-png.png"
                   width={200}
                   height={200}
                   alt="Maxence Dupre"

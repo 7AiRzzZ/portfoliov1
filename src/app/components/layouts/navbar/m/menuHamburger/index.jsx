@@ -17,9 +17,9 @@ const MenuHamburger = () => {
     <Menu left styles={styles} isOpen={closeMenu === true ? false : null}>
       <div className="flex flex-col justify-evenly w-full h-full">
         <div className=" flex justify-center items-center ">
-          <a href="http://localhost:3000">
+          <a href="https://dupreportfolio.fr/">
             <Image
-              src="/Images/ayanokoji.png"
+              src="/Images/maxence.png"
               width={150}
               height={150}
               alt="Maxence Dupre"
