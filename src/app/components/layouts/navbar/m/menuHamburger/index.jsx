@@ -37,7 +37,7 @@ const MenuHamburger = () => {
         </div>
         <ul className="text-2xl uppercase text-white pt-10 justify-center items-center flex flex-col font-pixeloid">
           <li className="menu-item px-2">
-            <a href="http://localhost:3000">Accueil</a>
+            <a href="https://dupreportfolio.fr/">Accueil</a>
           </li>
           <li className="menu-item px-2 py-6">
             <AnchorLink

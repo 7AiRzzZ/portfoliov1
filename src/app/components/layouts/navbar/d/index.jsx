@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { ParticlesContext } from "@/app/components/context/particlesProvider";
 import { LuToggleLeft, LuToggleRight } from "react-icons/lu";
 import DarkMode from "@/app/components/tools/darkMode";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const D = () => {
   const { theme, setTheme } = useContext(ParticlesContext);
@@ -18,22 +19,22 @@ const D = () => {
           <div className="">
             <ul className="flex flex-row justify-evenly text-white py-6">
             <li className=" px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400 font-pixeloid text-xl">
-              <a href="">Accueil</a>
+              <AnchorLink  offset={() => 100} href="#accueil">Accueil</AnchorLink>
               </li>
               <li className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400 font-pixeloid text-xl">
-              <a href="">A propos</a>
+              <AnchorLink  offset={() => 100} href="#about">A propos</AnchorLink>
               </li>
               <li className="px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
-              <a href="">Compétences</a>
+              <AnchorLink  offset={() => 100} href="#skills">Compétences</AnchorLink>
               </li>
               <li className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
-              <a href="">Projects</a>
+              <AnchorLink  offset={() => 100} href="#projects">Projects</AnchorLink>
               </li>
               <li className="px-8 hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
-              <a href="">Parcours</a>
+              <AnchorLink  offset={() => 100} href="#timeline">Parcours</AnchorLink>
               </li>
               <li  className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400  font-pixeloid text-xl">
-                <a href="">Contact</a>
+                <AnchorLink  offset={() => 100} href="#contact">Contact</AnchorLink>
               </li>
             </ul>
           </div>

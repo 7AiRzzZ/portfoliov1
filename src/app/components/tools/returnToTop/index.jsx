@@ -7,7 +7,7 @@ const ReturnToTop = () => {
   return (
     <>
       <ScrollToTop className=" bg-transparent shadow-none" smooth component={<LuArrowUpSquare
-      className=" dark:text-white  text-blue-500 rounded-full hover:transition hover:ease-out hover:duration-200 hover:scale-150 hover:text-blue-400 dark:hover:text-blue-400"
+      className=" dark:text-white  text-black rounded-full hover:transition hover:ease-out hover:duration-200 hover:scale-150 hover:text-blue-400 dark:hover:text-blue-400"
       size={40}/>} />
     </>
   );
