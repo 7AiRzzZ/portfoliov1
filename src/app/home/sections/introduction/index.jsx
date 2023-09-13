@@ -4,7 +4,7 @@ import Titre from "@/app/components/tools/titre";
 import { TypeAnimation } from "react-type-animation";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { BsArrowDown } from "react-icons/bs";
-
+import Link from "next/link";
 
 const Introduction = () => {
   return (
@@ -37,14 +37,14 @@ const Introduction = () => {
             />
           </section>
           <div className="flex flex-col pt-6 pb-20 lg:flex-row lg:pt-8 ">
-            <a href="">
-              <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400">
+            <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400">
+              <a href="https://www.canva.com/design/DAEkTdMI4SU/zZAyE-niYIzBND_ELfwWkA/view">
                 <button className=" font-pixeloid mb-1 px-4 lg:mb-0 lg:ml-4 border-2 rounded-full lg:px-6 lg:py-2 border-black dark:border-white ">
                   Mon Cv
                 </button>
-              </div>
-            </a>
-            <AnchorLink href="#projects"  offset={() => 100}>
+              </a>
+            </div>
+            <AnchorLink href="#projects" offset={() => 100}>
               <div className="hover:transition hover:ease-out hover:duration-200 hover:scale-110 hover:text-blue-400">
                 <button className=" font-pixeloid mt-1 px-2  lg:mt-0 lg:ml-4  border-2 rounded-full lg:px-6 lg:py-2  border-black dark:border-white ">
                   Mes projets
