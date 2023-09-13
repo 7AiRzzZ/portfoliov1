@@ -4,7 +4,7 @@ import Titre from "@/app/components/tools/titre";
 import { TypeAnimation } from "react-type-animation";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { BsArrowDown } from "react-icons/bs";
-import Link from "next/link";
+
 
 const Introduction = () => {
   return (
