@@ -18,7 +18,7 @@ const Parcours = () => {
               key={parcours.id}
               className="flex flex-row lg:flex lg:flex-row  lg:justify-center lg:items-center "
             >
-              <Card className=" dark:border-white containproject dark:bg-blue-800/60 w-[45rem] text-center lg:flex lg:flex-row lg:justify-center lg:items-center lg:py-4 lg:px-4">
+              <Card className=" dark:border-white containproject dark:bg-blue-400/70 w-[45rem] text-center lg:flex lg:flex-row lg:justify-center lg:items-center lg:py-4 lg:px-4">
                 <div className={`flex flex-col lg:grid lg: grid-cols-2`}>
                   <div className="p-4 flex justify-center items-center lg:flex lg:justify-start lg:items-center lg:text-left">
                     <Image

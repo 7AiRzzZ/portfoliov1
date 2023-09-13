@@ -15,7 +15,7 @@ export const Competences = () => {
         {data.map((skill) => {
           return (
             <div key={skill.id} className="p-2 lg:mx-8">
-              <Card className=" containproject dark:bg-blue-800/60 dark:border-white flex items-center justify-center p-4 lg:py-8">
+              <Card className=" containproject dark:bg-blue-300/70 dark:border-white flex items-center justify-center p-4 lg:py-8">
                 <Image
                   className={skill.color}
                   src={skill.image}

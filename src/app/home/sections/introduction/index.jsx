@@ -67,7 +67,7 @@ const Introduction = () => {
           </Titre>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:mx-4">
-          <Card className="dark:border-white flex items-center justify-center lg:py-4 lg:px-4 my-4 mx-4  lg:flex lg:justify-center lg:items-center">
+          <Card className="dark:border-white flex items-center justify-center  dark:bg-blue-400/70  lg:py-4 lg:px-4 my-4 mx-4  lg:flex lg:justify-center lg:items-center">
             <div className="flex flex-col justify-center items-center px-8 lg:px-8 lg:grid lg:grid-cols-2">
               <div className="pb-8 ">
                 <Image
@@ -99,7 +99,7 @@ const Introduction = () => {
           </Card>
 
           <div>
-            <Card className="dark:text-white dark:border-white p-4 my-2 mx-4 ">
+            <Card className="dark:text-white  dark:bg-blue-400/70  dark:border-white p-4 my-2 mx-4 ">
               <p className="xl:text-2xl font-retrogaming text-xs py-4 lg:py-8 lg:px-8 lg:text-lg  hover:text-white">
                 Je suis un développeur web Front-end /back-end ainsi que web
                 mobile .
