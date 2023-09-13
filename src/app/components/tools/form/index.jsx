@@ -37,7 +37,7 @@ const Form = () => {
           rows="15"
         ></textarea>
       </div>
-      <div className="">
+      <div className=" flex items-center justify-center">
         <Button onClick={() => SubmitForm()} text="Envoyer" />
       </div>
     </form>
