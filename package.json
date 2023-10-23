@@ -6,7 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:symfony": "symfony serve",
+    "dev:react": "encore dev-server",
+    "prod": "sudo composer install && pnpm run prod:node",
+    "prod:node": "pnpm install && pnpm run prod:autoloader ",
+    "prod:autoloader": "sudo composer install --no-dev --optimize-autoloader",
+    "prod:build": "encore production --progress",
+    "packages": "composer install && npm install",
+    "watch": "encore dev --watch"
   },
   "dependencies": {
     "@egjs/flicking": "^4.11.0",
